@@ -1,0 +1,16 @@
+[dependencies]
+facet = { version = "0", default-features = false, features = ["alloc"] }
+facet-args = { version = "0", default-features = false, features = [] }
+facet-pretty = { version = "0", default-features = false, features = ["alloc"] }
+
+[[bin]]
+name = "no_std_crt_abi_parser"
+path = "../../no_std_crt_abi_parser.rs"
+
+[package]
+edition = "2021"
+name = "no_std_crt_abi_parser"
+version = "0.1.0"
+
+[profile.release]
+strip = true

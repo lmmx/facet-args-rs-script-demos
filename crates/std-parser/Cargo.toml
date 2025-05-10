@@ -1,0 +1,16 @@
+[package]
+edition = "2021"
+name = "std_parser"
+version = "0.1.0"
+
+[dependencies]
+facet = { version = "0", default-features = false, features = [] }
+facet-args = { version = "0", default-features = false, features = [] }
+facet-pretty = { version = "0", default-features = false, features = [] }
+
+[[bin]]
+name = "std_parser"
+path = "../../main.rs"
+
+[profile.release]
+strip = true

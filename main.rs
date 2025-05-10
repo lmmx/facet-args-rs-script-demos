@@ -1,4 +1,4 @@
-#!/usr/bin/env rust-script
+// #!/usr/bin/env rust-script
 //! ```cargo
 //! [dependencies]
 //! facet = { version = "0.*", default-features = false, features = [] }
